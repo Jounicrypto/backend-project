@@ -1,7 +1,7 @@
 
 
 .login{
-    background-color: rgba(255, 165, 0, 0.8);
+    background-color: #ffa500cc;
     width: 400px;
     position: absolute;
     padding: 40px;
@@ -98,4 +98,65 @@
     width: 100px;
     margin: 10px 10px;
     border-radius: 15px;
+}
+
+.user{
+    border: 2px solid gray;
+    background-color: rgb(156, 243, 26);
+    border-style: initial;
+    width: 270px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border-bottom: 4px solid gray;
+    
+}
+.mp{
+    border: 2px solid gray;
+    background-color: rgb(223, 138, 26);
+    border-style: initial;
+    width: 280px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border-bottom: 4px solid gray;
+}
+
+.card-body{
+    background-color: #ffa500cc;
+    
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    /* border-top-left-radius: 100px; */
+    border-bottom-right-radius: 100px;
+    border-style: none;
+    
+    
+}
+
+.delbut{
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    width: 160px;
+    margin: 10px 10px;
+    border-radius: 15px;
+
+}
+
+.editbut{
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.hmbd{
+    background-color: rgb(44, 43, 43);
+    color: black;
+    font-family: Roboto black;
+    text-align: center;
+    
 }
