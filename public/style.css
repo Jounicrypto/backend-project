@@ -105,9 +105,14 @@
     background-color: rgb(156, 243, 26);
     border-style: initial;
     width: 270px;
-    margin: 10px 10px;
+    margin: 50px  30px 60px;
     border-radius: 10px;
     border-bottom: 4px solid gray;
+    position: absolute;
+    top: 40px;
+    margin-top: 30px;
+    
+
     
 }
 .mp{
@@ -115,14 +120,16 @@
     background-color: rgb(223, 138, 26);
     border-style: initial;
     width: 280px;
-    margin: 10px 10px;
+    margin: 40px 600px;
     border-radius: 10px;
     border-bottom: 4px solid gray;
+    
+    
 }
 
 .card-body{
     background-color: #ffa500cc;
-    
+   
     width: 400px;
     padding: 10px;
     text-align: center;
@@ -154,9 +161,27 @@
 }
 
 .hmbd{
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(187, 187, 187);
     color: black;
     font-family: Roboto black;
     text-align: center;
     
+}
+
+.addQ{
+    border: 2px solid gray;
+    background-color: rgb(223, 138, 26);
+    border-style: initial;
+    width: 280px;
+    margin: 40px 600px 40px 40px;
+    border-radius: 10px;
+    border-bottom: 4px solid gray;
+    
+}
+
+.bdQ{
+    background-color: rgb(187, 187, 187);
+    color: black;
+    font-family: Roboto black;
+    text-align: center;
 }
