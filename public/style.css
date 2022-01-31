@@ -1,0 +1,101 @@
+
+
+.login{
+    background-color: rgba(255, 165, 0, 0.8);
+    width: 400px;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.login-body{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    font-family: Roboto black;
+    text-align: center;
+    
+
+}
+.login input[type="email" ], .login input[type="password"]{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    width: 250px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 15px ;
+    transition: 0.8s;
+}
+
+.login input[type="email" ]:focus, .login input[type="password"]:focus{
+
+    border-left: 40px solid black;
+}
+
+.login button[type="submit"]{
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+
+.bg{
+    background: url("/public/img/background.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-position: center;
+
+}
+
+.register{
+    background-color: rgba(255, 165, 0, 0.8);
+    width: 400px;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.register-body{
+    background-color: black;
+    color: white;
+    font-family: Roboto black;
+    text-align: center;
+}
+
+.register input[type="text" ],[type="text" ],[type="password"]{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    width: 250px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 15px ;
+    transition: 0.8s;
+}
+
+.register input[type="text" ]:focus,[type="text" ]:focus,[type="password"]:focus{
+
+    border-left: 40px solid black;
+}
+
+.register button[type="submit"]{
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
